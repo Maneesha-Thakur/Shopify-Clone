@@ -1,6 +1,6 @@
-import React from 'react'
+// import React from 'react'
 import './BuiltIn.css'
-import video from '../asset/video.mp4'
+// import video from '../asset/video.mp4'
 const BuiltIn = () => {
   return (
     <div>
