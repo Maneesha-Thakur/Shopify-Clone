@@ -3,10 +3,10 @@ import React,{useEffect} from 'react'
 // import video from './asset/video.mp4'
 import Navbar from './components/navbar'
 import Second from './components/Second'
-import Cards from './components/cards'
+import Cards from './components/Cards'
 import Slider from './components/Slider'
 import Sales from './components/Sales'
-import CardsTwo from './components/cardsTwo'
+import CardsTwo from './components/CardsTwo'
 import CardsThree from './components/CardsThree'
 import BuiltIn from './components/BuiltIn'
 import Meet from './components/Meet'
@@ -40,7 +40,7 @@ const App = () => {
       
       <h1 style={{color:"white",fontSize:"45px"}}>Making Commerce Better for <br /> Everyone</h1>
       <br /><br />
-      <p style={{color:"white"}} >Shopify is supporting the next generation of enterprenuers, the world's biggest brands, and <br />everyine in between</p>
+      <p style={{color:"white"}} >Shopify is supporting the next generation of enterprenuers, the worlds biggest brands, and <br />everyine in between</p>
     </div>
     <br /><br /><br />
     <div className="freetrial">
