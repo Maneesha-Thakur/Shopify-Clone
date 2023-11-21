@@ -1,0 +1,31 @@
+
+.slid{
+    background-color: rgb(250, 247, 247);
+}
+.auto-slider-container {
+    margin: auto;
+    width: 70%;
+    height: 600px;
+    overflow: hidden;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+  }
+  
+  .active {
+    display: block;
+  }
+
+  .ca{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .ca1{
+   
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+  }
+  

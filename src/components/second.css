@@ -1,0 +1,27 @@
+.secon{
+    display: flex;
+    margin-top: 200px;
+  }
+  .box{
+    display: flex;
+    
+   
+  }
+  .earth img{
+   
+    display: inline;
+  }
+  .head{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .inn{
+
+    border-left: 3px solid aqua;
+
+  }
+  .inn1{
+    margin-top: 80px;
+    border-left: 3px solid aqua;
+
+  }

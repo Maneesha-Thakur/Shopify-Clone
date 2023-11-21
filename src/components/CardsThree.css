@@ -1,0 +1,19 @@
+.Cards{
+    
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec{
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+   
+}
+
+.firs{
+    margin-left: 300px;
+    width: 300px;
+    height: 500px;
+
+}

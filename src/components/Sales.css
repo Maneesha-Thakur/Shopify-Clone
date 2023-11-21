@@ -1,0 +1,18 @@
+.first {
+    
+}
+.first div{
+    display: flex;
+    justify-content: space-between;
+ 
+  
+}
+
+.image {
+width: 100%;
+margin: auto;
+
+}
+.image img{
+  margin-left: 20px;
+}

@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  width: 100%;
+  
+}
+.parent{
+  width: 70%;
+  
+  overflow: hidden;
+  border: 1px solid black;
+
+}
+.main{
+  width: 90%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.videoOne{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1
+}
+.content{
+  
+  position: relative;
+  z-index: 1; 
+  padding: 20px;
+ 
+}
+
+button:hover  {
+  
+  background-color: white;
+}
+.freetrial{
+display: flex;
+}
+.cart{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  
+  }
+  .carts{
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  .cartsOne{
+    width: 220px;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  .cartsOne img{
+    
+    width: 60px;
+    margin: 12px 0 0 12px;
+    border-radius: 30px;
+  }
+  .cartsTwo img{
+    
+    width: 60px;
+    margin: 12px 0 0 12px;
+    border-radius: 30px;
+  }
+  
+  .cartsTwo{
+    width:220px;
+    height: 250px;
+    
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  .cartsThree img{
+    
+    width: 60px;
+    margin: 12px 0 0 12px;
+    border-radius: 30px;
+  }
+  .cartsThree{
+    width: 220px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  .cartsFour img{
+    
+    width: 60px;
+    margin: 12px 0 0 12px;
+    border-radius: 30px;
+  }
+  .cartsFour{
+    width: 220px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  .cartsFive img{
+    
+    width: 60px;
+    margin: 12px 0 0 12px;
+    border-radius: 30px;
+  }
+  .cartsFive{
+    width: 220px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }

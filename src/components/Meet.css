@@ -1,0 +1,32 @@
+.root{
+    background-color: rgb(207, 240, 240);
+}
+.rootOne{
+    width: 100%;
+
+}
+.black{
+    display:grid;
+    
+    grid-template-columns: repeat(2,1fr);
+    background-color: black;
+    gap: 20px;
+    height: 100%;
+}
+.black div{
+
+    border-radius: 18px;
+    margin: 0 30px 0 150px;
+    width: 70%;
+  padding: 12px;
+    color: aliceblue;
+    background-color: rgb(19, 13, 13);
+
+    border: 1px solid rgb(68, 67, 67);
+
+}
+img{
+ 
+    margin: 12px 0 0 12px;
+    border-radius: 100px;
+}
